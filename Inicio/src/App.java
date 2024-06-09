@@ -9,6 +9,7 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
         SistemaControl sistemaControl = new SistemaControl();
+        System.out.println("Al momento de estar usando este tipo de programa, se reservs los derechos de autor");
         while (true) {
             System.out.println("1. Agregar producto");
             System.out.println("2. Lista de productos");
@@ -59,5 +60,6 @@ public class App {
                     System.out.println("Opción no válida");
             }
         }
+    
     }
 }
